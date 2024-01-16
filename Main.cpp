@@ -12,8 +12,8 @@ const char* vertexShaderSource = "#version 330 core\n"
 
 float vertices[9] = {
     -0.5f, -0.5f, 0.0f,
-     0.5f, -0.5f, 0.0f,
-     0.0f,  0.5f, 0.0f
+     0.6f, -0.5f, 0.0f,
+     0.0f,  0.2f, 0.0f,
 };
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height)
